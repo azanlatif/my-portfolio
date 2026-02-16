@@ -53,7 +53,7 @@ const Hero = () => {
             }} />
 
             <div className="relative z-[2] max-w-[1200px] mx-auto px-6 pt-28 md:pt-32 pb-16 w-full">
-                <div className="flex flex-col lg:flex-row items-center gap-12 lg:gap-16">
+                <div className="flex flex-col-reverse lg:flex-row items-center gap-12 lg:gap-16">
 
                     {/* Left — Text */}
                     <motion.div className="flex-1" variants={container} initial="hidden" animate="visible">
